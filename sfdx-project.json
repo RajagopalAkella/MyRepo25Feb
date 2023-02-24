@@ -1,12 +1,20 @@
 {
   "packageDirectories": [
     {
-      "path": "force-app",
-      "default": true
+      "path": "sampProj",
+      "package": "sampleProject",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "default": true,
+      "versionDescription": "My Sample Package"
     }
   ],
   "name": "unlocked1proj",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "55.0"
+  "sourceApiVersion": "55.0",
+  "packageAliases": {
+    "sampleProject": "0Ho7F000000TNPrSAO",
+    "sampleProject@0.1.0-1": "04t7F000005dEeuQAE"
+  }
 }
